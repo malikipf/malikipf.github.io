@@ -466,6 +466,14 @@ span {
 }
 
 @media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .header {
+    justify-content: space-around;
+  }
+
   #hamburger-menu {
     display: block;
   }
